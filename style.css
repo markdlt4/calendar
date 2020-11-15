@@ -1,7 +1,11 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
   line-height: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 
 textarea{
@@ -19,21 +23,39 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/images/background/jumbotron.jpg");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .description{
   white-space: pre-wrap;
+  border: 1px solid black;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .time-block{
   text-align: center;
-  border-radius: 15px;
+  /* border-radius: 15px;  */
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+  margin: 0;
 }
 
 .hour {
@@ -52,6 +74,16 @@ textarea{
   color: white;
 }
 
+.morning {
+  background-color: darkslategray;
+  color: white;
+}
+
+.evening {
+  background-color: palevioletred;
+  color: white;
+}
+
 .future {
   background-color: #77dd77;
   color: white;
@@ -63,9 +95,83 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  text-align: center;
+  padding: 12px;
+  padding-left: 25px;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.save-button {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-image: url("./assets/images/save/save-link.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: .65;
+}
+
+.fa-linkedin {
+  background: #151a4b;
+  color: white;
+  margin-right: 5px;
+}
+
+.fa-github {
+  background: #040b11;
+  color: white;
+  margin-left: 5px;
+}
+
+#copyright {
+  text-align: center;
+  color: coral;
+}
+
+#social-media {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: tomato;
+}
+
+#e_mail {
+  text-align: center;
+  color: salmon;
+}
+
+#spacer {
+  height: 45px;
+}
+
+h1 {
+  font-weight: 725;
+}
+
+.lead {
+  text-decoration: underline;
+}
+
+#currentDay {
+  color: rgb(22, 19, 201);
+}
+
+#timeOfDay {
+  color: rgb(22, 19, 201);
 }
