@@ -12,7 +12,7 @@ textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #26195e;
+  color: #4167ce;
   font-size: x-large;
   border-left: 1px solid black;
   padding: 10px;
@@ -138,7 +138,7 @@ textarea {
 
 #copyright {
   text-align: center;
-  color: coral;
+  color: rgb(3, 56, 56);
 }
 
 #social-media {
@@ -147,7 +147,7 @@ textarea {
 
 h3 {
   text-align: center;
-  color: tomato;
+  color: rgb(92, 25, 13);
 }
 
 #e_mail {
